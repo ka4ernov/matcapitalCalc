@@ -1,7 +1,7 @@
-'use strict'
+'use strict';
 
 window.addEventListener('DOMContentLoaded', () => {
-    const 
+    const saleCost = document.querySelector('input-sale-cost');
 
 
 });
