@@ -10,9 +10,6 @@
 <body>
     <div class="flex-wrapper">
         <div class="calculator-content">
-            <div>
-                <img class="matcapitalcalc-logo" src="" alt="Калькулятор доли детей при материнском капитале" title="Доли детей при материнском капитале">
-            </div>
             <h1>Калькулятор доли детей при материнском капитале</h1>
         </div>
         <div class="calculator-content-body">
@@ -21,12 +18,6 @@
                 <div class="input">
                     <input type="number" class="input-sale-cost" placeholder="Введите сумму, руб.">
                 </div>
-            </div>
-            <div class="btn">
-                <button class="btn-next">Далее</button>
-            </div>
-            <div class="btn">
-                <button class="btn-previous">Назад</button>
             </div>
             <div class="input-wrapper">
                 <div class="title">Сумма материнского капитала</div>
@@ -43,7 +34,7 @@
             <div class="input-wrapper">
                 <div class="title">Сколько участвует детей?</div>
                 <div class="input">
-                    <input type="number" class="input-childreen-num" placeholder="Введите кол-во детей">
+                    <input type="number" class="input-kids-num" placeholder="Введите кол-во детей">
                 </div>
             </div>
             <div class="input-wrapper">
@@ -53,10 +44,14 @@
 				    <p><input name="marriage" type="radio" class="marriage-checkbox" value="non-marriage">Нет</p>
                 </div>
             </div>
+            <div class="input-wrapper">
+                <input class="calc-btn" type="button" value="Вычислить размер доли">
+            </div>
             <div class="final-result-wrapper">
                 <div class="final-result-item">
-                    <div class="title">Результат</div>
-                    <div>Доля ребёнка: 0 м<sup>2</sup></div>
+                    <div class="title">Обязательная доля ребёнка:</div>
+                    <div class="kids-share-result">0 м<sup>2</sup></div>
+                    <div class="kids-share-result">  в праве собственности на недвижимость</div>
                 </div>
             </div>
         </div>
